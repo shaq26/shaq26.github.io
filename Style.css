@@ -1,0 +1,27 @@
+body {
+	    background: #ffffff url("Dark fancy.jpg");
+    margin-right: 200px;
+
+}
+
+h1 {
+	color: #000;
+	text-align: center;
+	background-color: #dd1c1a
+}
+
+h2 {
+	color: #000;
+	text-align: center;
+	background-color: #dd1c1a
+}
+p {
+	color: #000;
+	text-align: center;
+	background-color: #dd1c1a
+	
+}
+a {
+	color: #000;
+	background-color: #dd1c1a
+}
