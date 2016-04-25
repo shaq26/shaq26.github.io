@@ -1,27 +1,76 @@
 body {
-	    background: #ffffff url("Dark fancy.jpg");
-    margin-right: 200px;
-
+    background-color: #457b9d;
+    background-image: url("Batman-Fancy.jpg");
 }
-
 h1 {
-	color: #000;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 	text-align: center;
-	background-color: #dd1c1a
+	background-color: #247ba0;
+	 font-size: 70px;
+	font-style: italic;
+	border-style: solid;
 }
 
 h2 {
-	color: #000;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 	text-align: center;
-	background-color: #dd1c1a
+	background-color: #247ba0;
+	font-size: 40px;
+	font-style: italic;
+	border-style: solid;
+	
 }
+
+img {
+	float: left;
+    margin: 0 0 10px 10px;
+	border-style: solid;
+
+}
+
 p {
 	color: #000;
 	text-align: center;
-	background-color: #dd1c1a
+	font-style: oblique;
 	
 }
 a {
 	color: #000;
-	background-color: #dd1c1a
+	font-style: italic;
+	border-style: solid;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    float: center;
+    width: 300px;
 }
+
+div {
+    background-color: #247ba0;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+
