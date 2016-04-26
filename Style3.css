@@ -12,6 +12,11 @@ h1 {
 	 font-style: italic;
 }
 	
+.center {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
 
 h2 {
 	text-shadow: 0 0 3px #d00000, 0 0 5px #d00000;
@@ -24,9 +29,10 @@ h2 {
 	
 img {
 	float: center;
-    margin: 0 0 10px 10px;
+    margin: 50px;
 	border-style: solid;
 }
+
 
 p {
 	color: #000;
