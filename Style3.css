@@ -1,6 +1,9 @@
 body {
     background-color: #457b9d;
-    background-image: url("super-fancy-interior.png");
+    background-size: 1800px 2100px;
+ 	background-image: url("Tea-Fancy.jpg");
+ 	background-repeat: no-repeat;
+
 }
 
 h1 {
@@ -27,11 +30,27 @@ h2 {
 	 font-style: italic;
 }
 	
-img {
-	float: center;
-    margin: 50px;
-	border-style: solid;
+	div.img {
+    margin: 150px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 130px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
 }
+
+div.img img {
+    width: 300%;
+    height: 350px;
+}
+
+div.desc {
+    padding: 50px;
+    text-align: center;
+}
+
 
 
 p {

@@ -1,6 +1,8 @@
 body {
     background-color: #457b9d;
     background-image: url("SW-outside.png");
+      background-size: 1700px 1800px;
+     background-repeat: no-repeat;
 }
 h1 {
 	text-shadow: 0 0 3px #a2aebb, 0 0 5px #ffffff;
@@ -20,6 +22,23 @@ h2 {
 	 font-size: 50px;
 	 font-style: italic;
 }
+	div.img {
+    margin: 150px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 130px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 300%;
+    height: 350px;
+}
+
+
 
 p {
 	color: #000;
@@ -27,6 +46,7 @@ p {
 	background-color: #007ea7;
 	border-style: solid;
 	font-style: oblique;
+	 font-size: 20px;
 }
 a {
 	color: #000;

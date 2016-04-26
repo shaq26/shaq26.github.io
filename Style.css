@@ -1,6 +1,8 @@
 body {
     background-color: #457b9d;
-    background-image: url("Batman-Fancy.jpg");
+    background-image: url("interior-Embraer.jpg");
+    background-size: 1700px 1500px;
+    background-repeat: no-repeat;
 }
 h1 {
 	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
@@ -43,7 +45,7 @@ p {
 	font-style: oblique;
 	background-color: #247ba0;
 	border-style: solid;
-	
+	 font-size: 20px;
 }
 ul {
     list-style-type: none;

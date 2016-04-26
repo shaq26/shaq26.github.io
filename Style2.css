@@ -1,6 +1,8 @@
 body {
     background-color: #457b9d;
-    background-image: url("Killer-whale.jpg");
+    background-image: url("boeing-Airplanes.jpg");
+    background-repeat: no-repeat;
+     background-size: 1800px 2100px;
 }
 h1 {
 	color: white;
@@ -43,6 +45,7 @@ p {
 	border-style: solid;
 	font-style: oblique;
 	float: right;
+     font-size: 20px;
 
 }
 
